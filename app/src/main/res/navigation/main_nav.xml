@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/mainFragment"
         android:name="com.example.questionsapp.MainFragment"
-        android:label="fragment_main"
+        android:label="Main"
         tools:layout="@layout/fragment_main" >
         <action
             android:id="@+id/action_mainFragment_to_questionFragment"
@@ -17,6 +17,16 @@
     <fragment
         android:id="@+id/questionFragment"
         android:name="com.example.questionsapp.QuestionFragment"
-        android:label="fragment_question"
+        android:label="Solving the test.."
         tools:layout="@layout/fragment_question" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.questionsapp.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.example.questionsapp.rulesFragment"
+        android:label="Rules"
+        tools:layout="@layout/fragment_rules" />
 </navigation>
